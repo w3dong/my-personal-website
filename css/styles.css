@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family:sans-serif;
+}
+div{
+
+  margin:0;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Edu QLD Beginner', cursive;
+  font-size: 3.5rem;
+  color: #DF7861;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  color: #DF7861;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Lora', serif;
+  color: #ECB390;
+}
+p{
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+}
+
+a{
+  color: #ECB390;
+  font-family: 'Lora', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #FCF8E8;
+}
+
+hr{
+  border-style: dotted none none;
+  border-color: #DF7861;;
+  border-width: 6px;;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+.computer-img{
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+.cooking-img{
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.top-container{
+  background-color: #FCF8E8;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px auto;
+
+
+}
+.bottom-container{
+  background-color: #DF7861;
+  padding : 50px 0 20px;
+}
+
+.highlight{
+  text-decoration: underline;
+}
+.intro{
+  font-size: 1.5rem;
+}
+.intro2{
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 70px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 400px;
+  bottom: 400px;
+}
+.attribute{
+  color: #FCF8E8;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #DF7861;
+  background-image: -webkit-linear-gradient(top, #DF7861, #ECB390);
+  background-image: -moz-linear-gradient(top, #DF7861, #ECB390);
+  background-image: -ms-linear-gradient(top, #DF7861, #ECB390);
+  background-image: -o-linear-gradient(top, #DF7861, #ECB390);
+  background-image: linear-gradient(to bottom, #DF7861, #ECB390);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ECB390;
+  background-image: -webkit-linear-gradient(top, #ECB390, #FCF8E8);
+  background-image: -moz-linear-gradient(top, #ECB390, #FCF8E8);
+  background-image: -ms-linear-gradient(top, #ECB390, #FCF8E8);
+  background-image: -o-linear-gradient(top, #ECB390, #FCF8E8);
+  background-image: linear-gradient(to bottom, #ECB390, #FCF8E8);
+  text-decoration: none;
+}
